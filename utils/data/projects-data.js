@@ -1,0 +1,97 @@
+export const projectsData = [
+    {
+        id: 1,
+        name: 'AI Product Failure Analyzer',
+        description: "1st Runner-Up at CODENOVA Hackathon (CCOEW × BNY Mellon). Built a real-time multi-agent AI platform that simulates production failures and analyzes live system logs. Engineered a WebSocket-based monitoring dashboard enabling instant failure injection, tracking, and live analytics. Integrated LLM-powered root cause analysis with automated severity classification and remediation generation. Converted technical failures into business impact metrics including downtime estimation and revenue-loss analysis.",
+        tools: ['Python', 'WebSockets', 'LLM APIs', 'NLP', 'Multi-Agent Systems'],
+        role: 'AI/ML Engineer',
+        code: 'https://github.com/Sakshichikhale1/Multiagent-Product-Failure-Analyzer',
+        demo: 'https://github.com/Sakshichikhale1/Multiagent-Product-Failure-Analyzer',
+    },
+    {
+        id: 2,
+        name: 'AutoLearn AI Studio',
+        description: "A multimodal AI learning platform supporting PDFs, images, voice, and text-based study workflows. Built with FastAPI backend and React/TypeScript frontend. Developed AI-powered notes, quizzes, flashcards, mind maps, and contextual tutoring features. Integrated Groq Llama 3.3, OCR, arXiv, Semantic Scholar, and YouTube APIs for intelligent learning assistance. Designed interactive frontend using React, Tailwind CSS, Framer Motion, and ReactFlow.",
+        tools: ['FastAPI', 'React', 'TypeScript', 'Groq Llama 3.3', 'MongoDB', 'Tailwind CSS'],
+        role: 'Full Stack AI Developer',
+        code: 'https://github.com/Sakshichikhale1/AutoLearn-AI',
+        demo: 'https://autolearnai-frontend.onrender.com',
+    },
+    {
+        id: 3,
+        name: 'InvenPro – AI Inventory System',
+        description: "An AI-driven inventory management platform reducing manual inventory handling effort by approximately 40%. Implemented a computer vision pipeline using OpenCV and ZXing for real-time barcode detection and inventory tracking. Built an NLP + LLM-powered chatbot using Llama 3 for intelligent inventory queries and automated stock management workflows. Designed and evaluated machine learning demand forecasting models using historical inventory data to improve stock optimization and planning accuracy.",
+        tools: ['Python', 'FastAPI', 'React', 'TypeScript', 'Llama 3', 'OpenCV', 'Scikit-learn'],
+        role: 'AI/ML & Backend Developer',
+        code: 'https://github.com/Sakshichikhale1/InvenPro',
+        demo: 'https://invenpro-ui.onrender.com',
+    },
+    {
+        id: 4,
+        name: 'Healthcare AI Operating System',
+        description: "An autonomous AI operating system for healthcare clinics featuring six specialized agents for patient intake, SOAP scribing, medical billing, follow-up automation, clinical intelligence, and analytics. Built with FastAPI, React, LangGraph, and OpenAI APIs. Designed an event-driven multi-agent architecture that automates end-to-end clinical workflows, reducing administrative overhead while improving documentation accuracy.",
+        tools: ['FastAPI', 'React', 'TypeScript', 'LangGraph', 'OpenAI', 'MongoDB'],
+        role: 'AI/ML & Backend Developer',
+        code: 'https://github.com/Sakshichikhale1/Healthcare',
+        demo: 'https://healthcare-frontend-hoqp.onrender.com',
+    },
+    {
+        id: 5,
+        name: 'SwarmForge – Multi-Agent AI Software Factory',
+        description: "Built a system where multiple AI agents collaboratively build software. Implemented parallel execution, conflict resolution & auto-merging with real-time monitoring and output preview.",
+        tools: ['Python', 'Multi-Agent Systems', 'LLM APIs'],
+        role: 'AI Developer',
+        code: 'https://github.com/Sakshichikhale1/SwarmForge',
+        demo: '',
+    },
+    {
+        id: 6,
+        name: 'Kidney Disease Detection',
+        description: "Trained deep learning models on 12,446 CT images to detect kidney diseases. Improved accuracy from 89% to 93% and applied Grad-CAM for interpretable medical AI results.",
+        tools: ['Python', 'DenseNet', 'Grad-CAM', 'Deep Learning', 'Computer Vision'],
+        role: 'AI/ML Engineer',
+        code: 'https://github.com/Sakshichikhale1/MultiClass-Kidney-Detection',
+        demo: '',
+    },
+    {
+        id: 7,
+        name: 'Restaurant Queue Management System',
+        description: "A backend system built using Flask and SQLite for real-time operations. Implemented wait-time prediction and smart allocation logic to optimize restaurant queues.",
+        tools: ['Python', 'Flask', 'SQLite', 'Backend Development'],
+        role: 'Backend Developer',
+        code: 'https://github.com/Sakshichikhale1/restaurant-queue-system',
+        demo: '',
+    },
+    {
+        id: 8,
+        name: 'NeuroCity – AI Urban Intelligence Platform',
+        description: "An AI-powered Smart City Operating System designed for city administrators. It combines Digital Twin technology, Traffic & Environment Intelligence, and Infrastructure Analytics with an AI-driven simulation engine to monitor real-time city conditions and forecast future scenarios.",
+        tools: ['Digital Twin', 'AI/ML', 'Data Analytics', 'Simulation'],
+        role: 'Full Stack AI Developer',
+        code: 'https://github.com/saloni-s11/NeuroCity',
+        demo: '',
+    },
+    {
+        id: 9,
+        name: 'Smart Stock Keeper',
+        description: "An AI-powered SaaS Inventory Management System designed for SMEs. Features include advanced analytics, GST billing, smart alerts, and automated inventory insights.",
+        tools: ['TypeScript', 'AI/ML', 'SaaS', 'Analytics'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/Sakshichikhale1/smart-stock-keeper',
+        demo: 'https://inven-pro-inventory.lovable.app/',
+    }
+];
+
+
+// Do not remove any property.
+// Leave it blank instead as shown below
+
+// {
+//     id: 1,
+//     name: '',
+//     description: "",
+//     tools: [],
+//     role: '',
+//     code: '',
+//     demo: '',
+// },
